@@ -1,0 +1,154 @@
+body {
+    padding-top: 40px;
+}
+
+.margin-top-low {
+    margin-top: 15px;
+}
+
+.margin-top-medium {
+    margin-top: 60px;
+}
+
+.margin-bottom-low {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-medium {
+     margin-bottom: 60px;
+}
+
+.margin-bottom-height {
+    margin-bottom: 80px;
+}
+
+.starter-template {
+    padding: 20px 15px;
+}
+
+ul.dg-columns{
+    list-style-type: none;
+}
+
+ul.dg-columns li{
+    margin-top:5px;
+}
+
+.dg-col-box {
+    width: 70%;
+    padding-left: 5%;
+    background-color:#EAEAEA;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+table.rb-tbl td{
+    text-align: center;
+    font-style: italic;
+}
+
+table.rb-tbl td.filter {
+    text-align: left;
+    font-style: normal;
+}
+
+.right-column {
+    border-left: dotted;
+}
+
+.draggable:hover {
+    cursor:move;
+}
+
+.dp-hover {
+    background-color:rgba(1, 16, 191, 0.24);
+}
+
+.export-container a{
+    margin-left: 5px;
+}
+
+.thumb-selected{
+    border-color:#2a6496 !important;
+}
+
+.remove-filter-btn {
+    float:right;
+    color:rgba(191, 22, 0, 0.82);
+}
+
+.remove-filter-btn:hover {
+    cursor:pointer;
+}
+
+.hide-drop {
+    display:none;
+    visibility:hidden;
+    top:0px;
+    left:0px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+table.pdca{
+    width: 100%;
+}
+
+table.pdca td.title-lbl{
+    width: 10%;
+    font-weight: bold;
+}
+
+div.ytd{
+    float:left;
+    width:7.7%;
+    font-size: 12px;
+}
+
+ul.ytd{
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.ytd > li{
+    border-right: 1px solid #000;
+}
+
+ul.ytd li:first-child {
+    font-weight: bold;
+    color:#fff;
+    background:#ccc;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+ul.ytd li:last-child {
+    border-right: 0px solid #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul.ytd li:nth-child(5) {
+    border-bottom: 1px solid #000;
+}
+
+ul.ytd-first > li:not(:last-child){
+    border-left: 1px solid #000;
+}
+
+table.tbl-pdca-scrap tr > td:first-child{
+    font-size: 12px;
+    width:35%;
+}
+
+table.tbl-pdca-scrap tr > td:last-child {
+    width:30%;
+}
+
+table.tbl-pdca-scrap tr.active > th{
+    color: #fff;
+    text-align: center;
+    background-color: #696969;
+}
